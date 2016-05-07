@@ -55,11 +55,11 @@
 		<meta name="author" content="Alexander Overvoorde" />
 		<meta name="keywords" content="opengl, opengl 3.2, deprecated, non-deprecated, tutorial, guide, cross-platform, game, games, graphics, sfml, sdl, glfw, glut, openglut, beginner, easy" />
 
-		<link rel="shortcut icon" type="image/png" href="/media/tag.png" />
-		<link rel="stylesheet" type="text/css" href="/media/stylesheet.css" />
+		<link rel="shortcut icon" type="image/png" href="./media/tag.png" />
+		<link rel="stylesheet" type="text/css" href="./media/stylesheet.css" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-		<link rel="stylesheet" type="text/css" href="/media/mobile.css" media="screen and (max-width: 1024px)" />
+		<link rel="stylesheet" type="text/css" href="./media/mobile.css" media="screen and (max-width: 1024px)" />
 
 		<script type="text/x-mathjax-config">
 			// MathJax
@@ -125,7 +125,7 @@
 	<body>
 		<div id="page">
 			<!-- Work in progress ribbon -->
-			<a href="https://github.com/Overv/Open.GL"><img id="ribbon" src="/media/ribbon_fork.png" alt="Fork me!" /></a>
+			<a href="https://github.com/Overv/Open.GL"><img id="ribbon" src="./media/ribbon_fork.png" alt="Fork me!" /></a>
 
 			<!-- Navigation items -->
 			<input type="checkbox" id="nav_toggle" />
@@ -154,12 +154,15 @@
 				</blockquote>
 
                 <div id="adbox">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                	<!--
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
                     <!-- Open.GL Responsive -->
+                    <!--
                     <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4259747131061893" data-ad-slot="6609097747" data-ad-format="auto"></ins>
                     <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
                     </script>
+                    -->
                 </div>
 			</nav>
 
@@ -172,16 +175,17 @@
 						print(Markdown($contentSource));
 					?>
 				</article>
-
+<!--
                 <div id="adbox-article">
                     <hr />
 
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
                     <!-- Open.GL Responsive -->
+                    <!--
                     <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4259747131061893" data-ad-slot="6609097747" data-ad-format="auto"></ins>
                     <script>
                         (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+                    </script> -->
                 </div>
 
 				<?php
@@ -192,6 +196,7 @@
 				<!-- Disqus comments -->
 				<hr />
 				<aside id="disqus_thread"></aside>
+				<!--
 				<script type="text/javascript">
 					var dsq = document.createElement("script");
 					dsq.type = "text/javascript";
@@ -199,6 +204,7 @@
 					dsq.src = "//opengl.disqus.com/embed.js";
 					document.getElementsByTagName("head")[0].appendChild( dsq );
 				</script>
+				-->
 				<?php
 					}
 				?>
