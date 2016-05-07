@@ -138,7 +138,7 @@
 							if ($navitem[0] == $content)
 								print( '<li class="selected">' . $navitem[1] . '</li>' . "\n" );
 							else
-								print( '<li><a href="/' . $navitem[0] . ($lang == 'en' ? '' : '/' . $lang) . '">' . $navitem[1] . '</a></li>' . "\n" );
+								print( '<li><a href="./' . $navitem[0] . ($lang == 'en' ? '' : '/' . $lang) . '">' . $navitem[1] . '</a></li>' . "\n" );
 						}
 					?>
 				</ul>
